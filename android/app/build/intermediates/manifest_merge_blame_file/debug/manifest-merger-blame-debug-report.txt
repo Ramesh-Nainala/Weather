@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.weather.sample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <!--
+13    This manifest file is used only by Gradle to configure debug-only capabilities
+14    for React Native Apps.
+15    -->
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->[com.facebook.react:react-android:0.73.6] /Users/ramasamy/.gradle/caches/transforms-3/e1231b5b187cb579b629117f9511a862/transformed/jetified-react-android-0.73.6-debug/AndroidManifest.xml:16:5-78
+16-->[com.facebook.react:react-android:0.73.6] /Users/ramasamy/.gradle/caches/transforms-3/e1231b5b187cb579b629117f9511a862/transformed/jetified-react-android-0.73.6-debug/AndroidManifest.xml:16:22-75
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.facebook.flipper:flipper:0.201.0] /Users/ramasamy/.gradle/caches/transforms-3/9b2c28bd5719adb7e465469e2ca76c12/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:5-76
+17-->[com.facebook.flipper:flipper:0.201.0] /Users/ramasamy/.gradle/caches/transforms-3/9b2c28bd5719adb7e465469e2ca76c12/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:22-73
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.android.gms:play-services-iid:17.0.0] /Users/ramasamy/.gradle/caches/transforms-3/7d00a3d973e62c64256363b4cb614082/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+18-->[com.google.android.gms:play-services-iid:17.0.0] /Users/ramasamy/.gradle/caches/transforms-3/7d00a3d973e62c64256363b4cb614082/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] /Users/ramasamy/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+21        android:name="com.weather.sample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] /Users/ramasamy/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] /Users/ramasamy/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.weather.sample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] /Users/ramasamy/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] /Users/ramasamy/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.android.installreferrer:installreferrer:1.1.2] /Users/ramasamy/.gradle/caches/transforms-3/7347c325151bfcdf75aa8769efa26987/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+25-->[com.android.installreferrer:installreferrer:1.1.2] /Users/ramasamy/.gradle/caches/transforms-3/7347c325151bfcdf75aa8769efa26987/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+26
+27    <application
+27-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:5:5-24:19
+28        android:name="com.weather.sample.MainApplication"
+28-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:6:7-38
+29        android:allowBackup="false"
+29-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:10:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.9.0] /Users/ramasamy/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:8:7-41
+34        android:label="@string/app_name"
+34-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:7:7-39
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:9:7-52
+36        android:testOnly="true"
+37        android:theme="@style/AppTheme"
+37-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:11:7-38
+38        android:usesCleartextTraffic="true" >
+38-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/debug/AndroidManifest.xml:6:9-44
+39        <activity
+39-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:12:7-23:18
+40            android:name="com.weather.sample.MainActivity"
+40-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:13:9-37
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+41-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:15:9-118
+42            android:exported="true"
+42-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:18:9-32
+43            android:label="@string/app_name"
+43-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:14:9-41
+44            android:launchMode="singleTask"
+44-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:16:9-40
+45            android:windowSoftInputMode="adjustResize" >
+45-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:17:9-51
+46            <intent-filter>
+46-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:19:9-22:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:20:13-65
+47-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:20:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:21:13-73
+49-->/Users/ramasamy/Documents/WeatherApp/WeatherApp/android/app/src/main/AndroidManifest.xml:21:23-70
+50            </intent-filter>
+51        </activity>
+52
+53        <provider
+53-->[:react-native-webview] /Users/ramasamy/Documents/WeatherApp/WeatherApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+54            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+54-->[:react-native-webview] /Users/ramasamy/Documents/WeatherApp/WeatherApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-83
+55            android:authorities="com.weather.sample.fileprovider"
+55-->[:react-native-webview] /Users/ramasamy/Documents/WeatherApp/WeatherApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-64
+56            android:exported="false"
+56-->[:react-native-webview] /Users/ramasamy/Documents/WeatherApp/WeatherApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+57            android:grantUriPermissions="true" >
+57-->[:react-native-webview] /Users/ramasamy/Documents/WeatherApp/WeatherApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+58            <meta-data
+58-->[:react-native-webview] /Users/ramasamy/Documents/WeatherApp/WeatherApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:63
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+59-->[:react-native-webview] /Users/ramasamy/Documents/WeatherApp/WeatherApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+60                android:resource="@xml/file_provider_paths" />
+60-->[:react-native-webview] /Users/ramasamy/Documents/WeatherApp/WeatherApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-60
+61        </provider>
+62
+63        <activity
+63-->[com.facebook.react:react-android:0.73.6] /Users/ramasamy/.gradle/caches/transforms-3/e1231b5b187cb579b629117f9511a862/transformed/jetified-react-android-0.73.6-debug/AndroidManifest.xml:19:9-21:40
+64            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+64-->[com.facebook.react:react-android:0.73.6] /Users/ramasamy/.gradle/caches/transforms-3/e1231b5b187cb579b629117f9511a862/transformed/jetified-react-android-0.73.6-debug/AndroidManifest.xml:20:13-77
+65            android:exported="false" />
+65-->[com.facebook.react:react-android:0.73.6] /Users/ramasamy/.gradle/caches/transforms-3/e1231b5b187cb579b629117f9511a862/transformed/jetified-react-android-0.73.6-debug/AndroidManifest.xml:21:13-37
+66
+67        <meta-data
+67-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/ramasamy/.gradle/caches/transforms-3/35e720805bb760c1d60f4c9e61c13954/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+68            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+68-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/ramasamy/.gradle/caches/transforms-3/35e720805bb760c1d60f4c9e61c13954/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+69            android:value="GlideModule" />
+69-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/ramasamy/.gradle/caches/transforms-3/35e720805bb760c1d60f4c9e61c13954/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+70
+71        <activity
+71-->[com.google.android.gms:play-services-base:17.0.0] /Users/ramasamy/.gradle/caches/transforms-3/e853fdf1e0156c040588ca88cd821bd9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+72-->[com.google.android.gms:play-services-base:17.0.0] /Users/ramasamy/.gradle/caches/transforms-3/e853fdf1e0156c040588ca88cd821bd9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-base:17.0.0] /Users/ramasamy/.gradle/caches/transforms-3/e853fdf1e0156c040588ca88cd821bd9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-base:17.0.0] /Users/ramasamy/.gradle/caches/transforms-3/e853fdf1e0156c040588ca88cd821bd9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+75
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ramasamy/.gradle/caches/transforms-3/f4982a588457462187a3ce8badf7ea0f/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ramasamy/.gradle/caches/transforms-3/f4982a588457462187a3ce8badf7ea0f/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ramasamy/.gradle/caches/transforms-3/f4982a588457462187a3ce8badf7ea0f/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+79
+80        <provider
+80-->[androidx.emoji2:emoji2:1.2.0] /Users/ramasamy/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+81            android:name="androidx.startup.InitializationProvider"
+81-->[androidx.emoji2:emoji2:1.2.0] /Users/ramasamy/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+82            android:authorities="com.weather.sample.androidx-startup"
+82-->[androidx.emoji2:emoji2:1.2.0] /Users/ramasamy/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+83            android:exported="false" >
+83-->[androidx.emoji2:emoji2:1.2.0] /Users/ramasamy/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+84            <meta-data
+84-->[androidx.emoji2:emoji2:1.2.0] /Users/ramasamy/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+85-->[androidx.emoji2:emoji2:1.2.0] /Users/ramasamy/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+86                android:value="androidx.startup" />
+86-->[androidx.emoji2:emoji2:1.2.0] /Users/ramasamy/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ramasamy/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+88                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+88-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ramasamy/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+89                android:value="androidx.startup" />
+89-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ramasamy/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+90        </provider>
+91
+92        <meta-data
+92-->[com.facebook.soloader:soloader:0.10.5] /Users/ramasamy/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+93            android:name="com.facebook.soloader.enabled"
+93-->[com.facebook.soloader:soloader:0.10.5] /Users/ramasamy/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+94            android:value="false" />
+94-->[com.facebook.soloader:soloader:0.10.5] /Users/ramasamy/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+95    </application>
+96
+97</manifest>
